@@ -25,7 +25,6 @@ a.active {
 
 header {
   background: #000;
-  position: relative;
   padding: 20px;
 }
 
@@ -35,9 +34,8 @@ header nav {
 }
 
 header nav {
-  position: absolute;
-  top: 40%;
-  right: 40px;
+  vertical-align: top;
+  margin-top: 27px;
 }
 
 ul {
@@ -59,8 +57,7 @@ ul li:last-child {
 }
 
 main {
-  position: relative;
-  min-height: 500px;
+  min-height: 450px;
 }
 
 .services-content {
@@ -70,12 +67,9 @@ main {
 
 main aside {
   display: inline-block;
-  width: 29%;
+  width: 29.6%;
+  min-height: 450px;
   background: #232323;
-  position: absolute;
-  right: 0;
-  top: 0;
-  bottom: 0;
   text-align: center;
   padding: 40px 20px;
 }
@@ -94,6 +88,7 @@ main aside ul li {
 
 #main-content {
   padding: 40px;
+  vertical-align: top;
 }
 
 #main-content h1 {
@@ -105,8 +100,6 @@ main aside ul li {
 footer {
   background: #000;
   color: #fff;
-  position: absolute;
-  bottom: 0;
   width: 100%;
   padding: 30px;
   text-align: center;
