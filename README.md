@@ -1,1 +1,1 @@
-Basic navigation example assignment
+Basic float example assignment
