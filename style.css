@@ -7,7 +7,7 @@
 }
 
 body {
-  height: 100vh;
+  position: relative;
 }
 
 a {
@@ -57,7 +57,7 @@ ul li:last-child {
 }
 
 main {
-  min-height: 450px;
+  min-height: 1000px;
 }
 
 .services-content {
@@ -68,7 +68,7 @@ main {
 main aside {
   display: inline-block;
   width: 29.6%;
-  min-height: 450px;
+  min-height: 1000px;
   background: #232323;
   text-align: center;
   padding: 40px 20px;
@@ -89,10 +89,32 @@ main aside ul li {
 #main-content {
   padding: 40px;
   vertical-align: top;
+  position: sticky;
+  top: 0;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  background: #ededed;
+  border: 1px solid #ccc;
+  color: #ccc;
+  border-radius: 5px;
+}
+
+.back-to-top span {
+  font-size: 1.75rem;
+  position: absolute;
+  right: 17px;
+  bottom: 0px;
 }
 
 #main-content h1 {
   font-size: 1.75rem;
+
   text-align: center;
   font-weight: 500;
 }
