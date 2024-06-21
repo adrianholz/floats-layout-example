@@ -56,34 +56,9 @@ ul li:last-child {
   width: calc(100% - 580px);
 }
 
-main {
-  min-height: 1000px;
-}
-
 .services-content {
   display: inline-block;
   width: 70%;
-}
-
-main aside {
-  display: inline-block;
-  width: 29.6%;
-  min-height: 1000px;
-  background: #232323;
-  text-align: center;
-  padding: 40px 20px;
-}
-
-main aside h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #a9a9a9;
-  margin-bottom: 40px;
-}
-
-main aside ul li {
-  display: block;
-  margin: 0 0 10px 0;
 }
 
 #main-content {
@@ -95,6 +70,52 @@ main aside ul li {
   position: absolute;
   right: 17px;
   bottom: 0px;
+}
+
+#main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.75rem;
+}
+
+#main-content img {
+  max-width: 360px;
+  border-radius: 10px;
+}
+
+#main-content div {
+  margin-bottom: 100px;
+}
+
+#main-content div:last-child {
+  margin-bottom: 0;
+}
+
+#main-content div:nth-child(1) img {
+  float: left;
+  margin-right: 40px;
+}
+
+#main-content div:nth-child(2) img {
+  float: right;
+  margin-left: 40px;
+}
+
+#main-content div:nth-child(3) img {
+  max-width: 550px;
+  margin-bottom: 40px;
+}
+
+#main-content div:nth-child(3) img:nth-child(1) {
+  float: left;
+}
+
+#main-content div:nth-child(3) img:nth-child(2) {
+  float: right;
+}
+
+#main-content div:nth-child(3) p {
+  clear: both;
 }
 
 #main-content h1 {
